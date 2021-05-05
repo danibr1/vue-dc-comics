@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     main {
         background: #0282f9;
         height: 130px;
@@ -26,4 +26,10 @@ export default {
         margin: 0 auto;
         width: 1170px;
    }
+
+    /* per divedere lo spazio esatto  
+    .cards {
+        flex-basis: calc(100% /5);
+    } */
+
 </style>
