@@ -37,7 +37,7 @@ export default {
     // TOP FOOTER
     .top-footer {
         height: 370px;
-        background: #5e5e5e;
+        background: #424141
     }
 
     // BOTTOM-FOOTER
