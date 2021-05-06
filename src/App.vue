@@ -8,6 +8,9 @@
 
         <!-- MAIN ICONS -->
         <Cards />
+
+        <!-- FOOTER -->
+        <Footer />
     </div>
 </template>
 
@@ -15,6 +18,7 @@
 import Header from "@/components/Header.vue";
 import Main from "@/components/Main.vue";
 import Cards from "@/components/Cards.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
     name: "App",
@@ -22,6 +26,7 @@ export default {
         Header,
         Main,
         Cards,
+        Footer,
     },
 };
 </script>

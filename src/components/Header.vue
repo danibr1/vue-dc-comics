@@ -49,6 +49,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+    @import '../styles/general';
+    @import '../styles/mixins';
+    @import '../styles/utilities';
     @import '../styles/vars';
 
 header {

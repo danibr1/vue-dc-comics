@@ -1,6 +1,6 @@
 <template>
     <main class="ai-center">
-        <section class="container flex">
+        <section class="container">
             <ul>
                 <li  
                     v-for="(card, index) in cards" 
@@ -57,7 +57,10 @@ export default {
 
 
 <style scoped lang="scss">
+    @import '../styles/general';
+    @import '../styles/mixins';
     @import '../styles/utilities';
+    @import '../styles/vars';
 
     main {
         height: 150px;
@@ -66,7 +69,7 @@ export default {
 
     ul{
         display: flex;
-        padding: 0;
+        justify-content: space-around;
     }
     li {
         list-style: none;
@@ -90,10 +93,9 @@ export default {
     
     li:last-child img{
         width: 55px;
-     }
+    }
 
-
-    
-
-  
+    span {
+        font-size:14px;
+    }
 </style>
